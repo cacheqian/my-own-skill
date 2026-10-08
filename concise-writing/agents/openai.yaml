@@ -1,0 +1,3 @@
+interface:
+  display_name: "精简表述"
+  short_description: "合并重复论述、压缩解释，保留核心观点、关键边界、证据与作者语气"
