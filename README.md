@@ -37,3 +37,25 @@ notion-page-design/
 ### 使用
 
 将整个 `concise-writing` 目录放入所用 Agent 的 skills 目录，保留 `SKILL.md` 和 `agents/openai.yaml`。在任务中指定使用 `concise-writing`；支持对应语法的环境可用 `$concise-writing` 调用。也可直接提出“精简表述”“太啰嗦”“压缩篇幅”等请求。
+
+## report-writing
+
+[查看完整 Skill](report-writing/SKILL.md)
+
+用于将原始材料改写为老板汇报、项目进展、能力建设、方案对比与阶段规划。文字提炼结论和判断，表格组织结构化信息，按需使用 1～2 张统一风格的关键画板；保留事实、数据口径、必要边界及用户指定结构。
+
+### 目录
+
+```text
+report-writing/
+├── SKILL.md
+├── agents/
+│   └── openai.yaml
+└── references/
+    ├── report-patterns.md
+    └── style-reference.md
+```
+
+### 使用
+
+将整个 `report-writing` 目录放入所用 Agent 的 skills 目录，保留 `agents/` 和 `references/`。在任务中指定使用 `report-writing`；支持对应语法的环境可用 `$report-writing` 调用。也可直接提供材料并提出“整理成汇报”或“按汇报风格改写”。基础改写不依赖访问样本文档；实际读写飞书文档或制作原生画板时，需要相应工具、Skill 和访问权限。
