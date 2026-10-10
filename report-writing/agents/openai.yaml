@@ -1,4 +1,4 @@
 interface:
   display_name: "汇报改写"
   short_description: "将材料改写为结论清晰、表格紧凑、关键画板统一的业务汇报"
-  default_prompt: "请用 $report-writing 将这份材料改写成可直接汇报的文档，保留事实与必要边界，用文字提炼判断、表格组织细节，按需使用 1～2 张关键画板。"
+  default_prompt: "请用 $report-writing 将这份材料改写成可直接汇报的文档，保留事实与必要边界，用文字提炼判断、表格组织细节，按独立解释价值选择关键图。"
